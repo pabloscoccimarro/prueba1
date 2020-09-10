@@ -17,6 +17,8 @@ public class Barco {
     protected Double eslora;
     protected Integer anioFabricacion;
     protected Boolean barcoEspecial;
+    protected Alquiler alquiler;
+    
     Scanner leer = new Scanner(System.in);
 
     public Barco(Integer matricula, Double eslora, Integer anioFabricacion) {
